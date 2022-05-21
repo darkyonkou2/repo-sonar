@@ -43,8 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"darkyonkou2_repo-sonar" /o:"darkyonkou2" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build CRUD-NETCore-TDD\CRUD-NETCore-TDD.csproj --configuration Release;
-          
-          dotnet test CRUD-NETCore-TDD.Test\CRUD-NETCore-TDD.Test.csproj --no-build --collect:"XPlat Code Coverage";
-
+          <insert_your_build_command>
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
