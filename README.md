@@ -4,3 +4,4 @@
 <p> Since I don't have a lot of experience with NET Core, I am doing it for self-study and want to eventually get a stereotyped and templated project for newbie. </p>
 <p> If you have any comments or suggestions - see you in Issues! </p>
 <p> Thanks! </p>
+"# repo-sonar" 
